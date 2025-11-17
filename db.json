@@ -55,6 +55,20 @@
       "lastName": "James",
       "expectedStartTime": "08:00",
       "signIns": []
+    },
+    {
+      "id": "9",
+      "firstName": "Grace",
+      "lastName": "Barney",
+      "expectedStartTime": "08:00",
+      "signIns": []
+    },
+    {
+      "id": "10",
+      "firstName": "Timi",
+      "lastName": "Joshua",
+      "expectedStartTime": "08:00",
+      "signIns": []
     }
   ],
   "signins": []
