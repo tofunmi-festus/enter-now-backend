@@ -17,6 +17,10 @@ server.use((req, res, next) => {
   next();
 });
 
+server.get('/health', (req, res) => {
+  res.status(200).send('OK');
+});
+
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
